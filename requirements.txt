@@ -1,0 +1,1 @@
+ open-spiel==1.3
