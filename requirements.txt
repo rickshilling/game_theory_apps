@@ -1,1 +1,2 @@
- open-spiel==1.3
+open-spiel==1.3
+jax
