@@ -1,8 +1,4 @@
 import numpy as np
-
-from jax import grad
-import jax.numpy as jnp
-
 from open_spiel.python.observation import IIGObserverForPublicInfoGame
 import pyspiel
 
