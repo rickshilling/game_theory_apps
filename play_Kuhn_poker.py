@@ -6,13 +6,17 @@ import pyspiel
 import numpy as np
 
 import sys
+import os
+
+cwd = os.getcwd() 
 
 # /home/rick_shilling/open_spiel/open_spiel/python/examples/meta_cfr/sequential_games/game_tree_utils.py
 sys.path.append('.')
 sys.path.append('/home/rick_shilling/open_spiel')
 sys.path.append('/home/rick_shilling/open_spiel/open_spiel/python/examples/meta_cfr/sequential_games')
 print(sys.path)
-from game_tree_utils import GameTree
+# import game_tree_utils
+import open_spiel.python.games.tic_tac_toe as t3
 
 def main(_):
   game = pyspiel.load_game("kuhn_poker")
